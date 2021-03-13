@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5", // es2015
-    "module": "commonjs", // amd
+    "target": "es5", // s2015 , es5
+    "module": "commonjs", // commonjs, amd, esnext
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
