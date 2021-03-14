@@ -5,3 +5,5 @@ function test(arg) {
     return arg;
 }
 exports.test = test;
+var nullAble = null;
+nullAble = 'string';
