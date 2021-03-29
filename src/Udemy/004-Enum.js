@@ -17,6 +17,7 @@ var CoffeeSize;
     // TALL = 'TALL',
     // GRANDE = 'GRANDE',
     // VENDI = 'VENDI',
+    /* 文字列指定しなければ配列数値になる */
     CoffeeSize[CoffeeSize["SHORT"] = 0] = "SHORT";
     CoffeeSize[CoffeeSize["TALL"] = 1] = "TALL";
     CoffeeSize[CoffeeSize["GRANDE"] = 2] = "GRANDE";
@@ -24,6 +25,6 @@ var CoffeeSize;
 })(CoffeeSize || (CoffeeSize = {}));
 var coffee = {
     hot: true,
-    size: CoffeeSize.TALL,
+    size: CoffeeSize.VENDI,
 };
 console.log(coffee);
