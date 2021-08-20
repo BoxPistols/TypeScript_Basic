@@ -4,8 +4,9 @@
     "module": "commonjs", // esnext
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "outDir": "dist",
+    // create x.d.ts
+    "declaration": true
   },
   "include": ["src/**/*"]
 }
