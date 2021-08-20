@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5", // esnext
-    "module": "commonjs", // esnext
+    "target": "es5", // esnext es5
+    "module": "commonjs", // esnext commonjs
     "strict": true,
     "esModuleInterop": true,
-    "outDir": "dist"
-    // create x.d.ts
-    // "declaration": true
+    "outDir": "dist",
+    /* create x.d.ts */
+    "declaration": true,
+    /* inslude JavaScript */
+    "allowJs": true,
+    "checkJs": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/Book/**/*"]
 }
