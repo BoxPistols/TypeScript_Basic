@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5", // s2015 , es5
-    "module": "commonjs", // commonjs, amd, esnext
+    "target": "es5", // esnext
+    "module": "commonjs", // esnext
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "outDir": "dist"
+    // create x.d.ts
+    // "declaration": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
