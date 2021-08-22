@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "outDir": "dist",
     /* create x.d.ts */
-    "declaration": true,
+    // "declaration": true,
     /* inslude JavaScript */
     "allowJs": true, // JavaScript Build
     "checkJs": true, // js error check
