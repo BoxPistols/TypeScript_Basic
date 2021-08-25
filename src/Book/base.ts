@@ -67,3 +67,11 @@ function hasError(msg: string): never {
 function infinitLoop(): never {
   while (true) {}
 }
+
+/* object */
+let objBrsce: {}
+let objType: object
+
+objBrsce = true
+// objType = 1
+objType = { key: 'value' }
