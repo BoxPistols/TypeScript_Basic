@@ -10,4 +10,4 @@ const person:{
 
 const personView = (`${person.age - 18}　 ${person.name}`)
 // app.innerHTML = personView
-console.log(personView)
+console.log(personView)\
